@@ -1,0 +1,114 @@
+
+
+
+.container {
+    background-color: antiquewhite;
+    margin-top:25px;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+.navbar img{
+
+    padding-left: 40px;
+
+}
+
+
+
+.container img {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.container img {
+    width: 100%;
+    height: auto;   
+}
+.container-fluid p {
+
+    width: 100%
+
+}
+.imagebtn{
+
+    position: relative;
+
+}
+
+.imagebtn .btn_git{
+
+    position: absolute;
+    top: 90%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 1px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.imagebtn .btn_linkedin{
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 1px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.imagebtn .btn_twitter{
+
+    position: absolute;
+    top: 90%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 1px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn_git:hover {
+    color:grey;  
+}
+.btn_twitter:hover {
+    color:cyan;
+}
+.btn_linkedin:hover {
+    color:blue;
+}
+
+
+
+.hovereff:hover{
+    opacity : 1;
+}
+
+
+
+
+.sticky{
+
+    position:fixed;
+    top:0;
+    width: 100%;
+
+
+}
