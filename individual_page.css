@@ -1,0 +1,67 @@
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#212529;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.backbutton{
+
+  border:1px;
+  position: relative;
+  margin-left: 40px;
+  margin-top: auto;
+  padding-top: auto;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  border-radius: 200px;
+  background-color: #212529;
+  color:#ffffff;
+  background-position: center;
+  transition: background 0.8s;
+
+}
+
+.backbutton:hover {
+  background:#494949  radial-gradient(circle, transparent 1%, #494949 1%) center/15000%;
+}
+
+.list>li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-left: 5px solid white;
+  color: white;
+  font-weight: bolder;
+  padding-left: 35px;
+}
+
